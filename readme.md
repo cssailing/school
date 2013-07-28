@@ -1,6 +1,6 @@
 ## Laravel School Management System
 
-This school managemen system is built on top of Laravel Framework. With the help of some awesome packages. Some of the packages used are-
+This school management system is built on top of Laravel Framework. With the help of some awesome packages. Some of the packages used are-
 1. Entrust
 2. Confide
 3. Ardent
