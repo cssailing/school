@@ -1,0 +1,58 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"require": {
+		"laravel/framework": "4.0.*",
+		"components/font-awesome": "3.2.*@dev",
+		"twitter/bootstrap": "dev-master",
+		"robclancy/presenter": "1.0.*",
+        "laravelbook/ardent": "dev-master",
+		"zizaco/confide": "dev-master",
+		"zizaco/entrust": "dev-master",
+		"jasonlewis/basset": "dev-master",
+		"anahkiasen/former": "dev-master",
+		"vespakoen/menu": "dev-master",
+		"jasonlewis/enhanced-router": "1.0.*",
+		"bllim/datatables": "*"
+	},
+	"require-dev" : {
+		"way/generators": "dev-master",
+        "mockery/mockery": "dev-master@dev",
+        "summerstreet/woodling": "0.1.*",
+        "barryvdh/laravel-ide-helper": "dev-master",
+        "leafo/lessphp": "v0.3.9",
+        "natxet/CssMin": "dev-master",
+        "lmammino/jsmin4assetic": "1.0.*",
+        "way/guard-laravel": "dev-master",
+        "phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan optimize"
+		],
+		"pre-update-cmd": [
+			"php artisan clear-compiled"
+		],
+		"post-update-cmd": [
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
