@@ -16,6 +16,7 @@ ClassLoader::addDirectories(array(
 	app_path().'/commands',
 	app_path().'/controllers',
 	app_path().'/models',
+	app_path().'/presenters',
 	app_path().'/database/seeds',
 
 ));
@@ -50,7 +51,23 @@ Log::useDailyFiles(storage_path().'/logs/'.$logFile);
 
 App::error(function(Exception $exception, $code)
 {
-	Log::error($exception);
+    Log::error($exception);
+    
+    if (Config::get('app.debug')) {
+    	return;
+    }
+
+    switch ($code)
+    {
+        case 403:
+            return View::make('error/403');
+
+        case 500:
+            return View::make('error/500');
+
+        default:
+            return View::make('error/404');
+    }
 });
 
 /*
@@ -80,4 +97,4 @@ App::down(function()
 |
 */
 
-require app_path().'/filters.php';
+require __DIR__.'/../filters.php';
