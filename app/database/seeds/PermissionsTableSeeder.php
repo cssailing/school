@@ -8,30 +8,38 @@ class PermissionsTableSeeder extends Seeder {
 
 
         $permissions = array(
+            //designed for superadmins and admins
             array(
-                'name'      => 'manage_blogs',
+                'name'              => 'manage_blogs',
                 'display_name'      => 'manage blogs'
             ),
+            //designed for all users
             array(
-                'name'      => 'manage_posts',
-                'display_name'      => 'manage posts'
+                'name'              => 'manage_own_blogs',
+                'display_name'      => 'manage own blogs'
             ),
+
+            //designed for superadmins and admins
             array(
-                'name'      => 'manage_comments',
+                'name'              => 'manage_comments',
                 'display_name'      => 'manage comments'
             ),
+            //designed for all users
             array(
-                'name'      => 'manage_users',
+                'name'              => 'post_comment',
+                'display_name'      => 'post comment'
+            ),
+
+            //designed for superadmin only
+            array(
+                'name'              => 'manage_users',
                 'display_name'      => 'manage users'
             ),
             array(
-                'name'      => 'manage_roles',
+                'name'              => 'manage_roles',
                 'display_name'      => 'manage roles'
             ),
-            array(
-                'name'      => 'post_comment',
-                'display_name'      => 'post comment'
-            ),
+
         );
 
         DB::table('permissions')->insert( $permissions );
@@ -64,9 +72,13 @@ class PermissionsTableSeeder extends Seeder {
                 'permission_id' => 6
             ),
             array(
-                'role_id'      => 2,
+                'role_id'      => 3,
                 'permission_id' => 6
             ),
+            array(
+                'role_id'      => 3,
+                'permission_id' => 3
+            )
         );
 
         DB::table('permission_role')->insert( $permissions );

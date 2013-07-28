@@ -2,75 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="840c2ac4-aea8-41e3-93c3-605eb5afb3f2" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\component.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\css\font-awesome-ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\css\font-awesome-ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\font\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\font\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\font\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\font\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\font\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\extras.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\font-awesome-ie7.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_bootstrap.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\font-awesome-ie7.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\font-awesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\require-built.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\require.config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\require.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\root\htdocs\laravel\school\components\require.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plan.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/production.sqlite" afterPath="$PROJECT_DIR$/app/database/production.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/cache/.gitignore" afterPath="$PROJECT_DIR$/app/storage/cache/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/app/storage/logs/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/meta/.gitignore" afterPath="$PROJECT_DIR$/app/storage/meta/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/.gitignore" afterPath="$PROJECT_DIR$/app/storage/views/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2013_02_05_043505_create_posts_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2013_02_05_043505_create_posts_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/controllers/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/AdminRolesController.php" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminRolesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BlogController.php" afterPath="$PROJECT_DIR$/app/controllers/BlogController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/PostsTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/PostsTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/RolesTableSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/artisan.php" afterPath="$PROJECT_DIR$/app/start/artisan.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/auth.php" afterPath="$PROJECT_DIR$/app/config/auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/cache.php" afterPath="$PROJECT_DIR$/app/config/cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/testing/cache.php" afterPath="$PROJECT_DIR$/app/config/testing/cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/compile.php" afterPath="$PROJECT_DIR$/app/config/compile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/packages/jasonlewis/basset/config.php" afterPath="$PROJECT_DIR$/app/config/packages/jasonlewis/basset/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/start/local.php" afterPath="$PROJECT_DIR$/app/start/local.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/paths.php" afterPath="$PROJECT_DIR$/bootstrap/paths.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" afterPath="$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/en/reminders.php" afterPath="$PROJECT_DIR$/app/lang/en/reminders.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/start.php" afterPath="$PROJECT_DIR$/bootstrap/start.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/view.php" afterPath="$PROJECT_DIR$/app/config/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/workbench.php" afterPath="$PROJECT_DIR$/app/config/workbench.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.php" changelist="840c2ac4-aea8-41e3-93c3-605eb5afb3f2" time="1375028905850" ignored="false" />
     <file path="/Dummy.txt" changelist="840c2ac4-aea8-41e3-93c3-605eb5afb3f2" time="1375043978588" ignored="false" />
+    <file path="/plan.php" changelist="840c2ac4-aea8-41e3-93c3-605eb5afb3f2" time="1375047159471" ignored="false" />
+    <file path="/PermissionsTableSeeder.php" changelist="840c2ac4-aea8-41e3-93c3-605eb5afb3f2" time="1375047239330" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +59,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_ide_helper.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+      <file leaf-file-name="plan.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9608" column="6" selection-start="228777" selection-end="228777" vertical-scroll-proportion="0.8806818">
+            <state line="16" column="21" selection-start="333" selection-end="333" vertical-scroll-proportion="-8.655172">
               <folding>
-                <element signature="e#6#211#0" expanded="true" />
+                <element signature="e#6#167#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionsTableSeeder.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="14" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.7267951">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,6 +101,8 @@
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/config/mail.php" />
         <option value="$PROJECT_DIR$/_ide_helper.php" />
+        <option value="$PROJECT_DIR$/plan.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -130,7 +110,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
+    <option name="width" value="1317" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -259,17 +239,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1317" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15898252" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15936255" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -344,10 +324,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_ide_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9608" column="6" selection-start="228777" selection-end="228777" vertical-scroll-proportion="0.8806818">
+        <state line="3" column="38" selection-start="129" selection-end="129" vertical-scroll-proportion="0.10752688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="333" selection-end="333" vertical-scroll-proportion="-8.655172">
           <folding>
-            <element signature="e#6#211#0" expanded="true" />
+            <element signature="e#6#167#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="14" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.7267951">
+          <folding />
         </state>
       </provider>
     </entry>

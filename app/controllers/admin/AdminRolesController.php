@@ -87,6 +87,8 @@ class AdminRolesController extends AdminController {
 
         // Validate the inputs
         $validator = Validator::make(Input::all(), $rules);
+
+
         // Check if the form validates with success
         if ($validator->passes())
         {
@@ -94,7 +96,9 @@ class AdminRolesController extends AdminController {
             $inputs = Input::except('csrf_token');
 
             $this->role->name = $inputs['name'];
+
             $this->role->save();
+
 
             // Save permissions
             $this->role->perms()->sync($this->permission->preparePermissionsForSave($inputs['permissions']));

@@ -11,6 +11,7 @@
 |
 */
 
+
 /** ------------------------------------------
  *  Route model binding
  *  ------------------------------------------
@@ -24,7 +25,7 @@ Route::model('role', 'Role');
  *  Admin Routes
  *  ------------------------------------------
  */
-Route::group(array('prefix' => 'admin', 'before' => 'auth'), function()
+Route::group(array('prefix' => 'admin', 'before'=>'auth'), function()
 {
 
     # Comment Management
@@ -67,6 +68,10 @@ Route::group(array('prefix' => 'admin', 'before' => 'auth'), function()
     # User Role Management
     Route::get('roles/{role}/show', 'AdminRolesController@getShow')
         ->where('role', '[0-9]+');
+
+    Route::get('roles/create', 'AdminRolesController@getCreate');
+    Route::post('roles/create', 'AdminRolesController@postCreate');
+
     Route::get('roles/{role}/edit', 'AdminRolesController@getEdit')
         ->where('role', '[0-9]+');
     Route::post('roles/{role}/edit', 'AdminRolesController@postEdit')
@@ -80,6 +85,35 @@ Route::group(array('prefix' => 'admin', 'before' => 'auth'), function()
     # Admin Dashboard
     Route::controller('/', 'AdminDashboardController');
 });
+
+
+
+
+
+
+// # Blog Management
+Route::get('blogs/{post}/edit', 'MyblogsController@getEdit')
+     ->where('post', '[0-9]+');
+Route::post('blogs/{post}/edit', 'MyblogsController@postEdit')
+     ->where('post', '[0-9]+');
+Route::get('blogs/{post}/delete', 'MyblogsController@getDelete')
+    ->where('post', '[0-9]+');
+Route::post('blogs/{post}/delete', 'MyblogsController@postDelete')
+    ->where('post', '[0-9]+');
+
+Route::get('blogs/{post}/visibility', 'MyblogsController@getVisibility')
+    ->where('post', '[0-9]+');
+Route::post('blogs/{post}/visibility', 'MyblogsController@postVisibility')
+    ->where('post', '[0-9]+');
+
+Route::get('blogs', 'MyblogsController@getIndex');
+Route::get('blogs/create', 'MyblogsController@getCreate');
+Route::post('blogs/create', 'MyblogsController@postCreate');
+Route::get('blogs/data', 'MyblogsController@getData');
+
+
+
+
 
 
 /** ------------------------------------------

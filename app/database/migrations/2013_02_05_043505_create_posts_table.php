@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePostsTable extends Migration {
+class CreateNoticesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -20,6 +20,7 @@ class CreatePostsTable extends Migration {
 			$table->string('title');
 			$table->string('slug');
 			$table->text('content');
+			$table->boolean('visibility');
 			$table->string('meta_title');
 			$table->string('meta_description');
 			$table->string('meta_keywords');
