@@ -1,7 +1,5 @@
 ## Laravel School Management System
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
-
 This school managemen system is built on top of Laravel Framework. With the help of some awesome packages. Some of the packages used are-
 1. Entrust
 2. Confide
