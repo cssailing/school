@@ -26,9 +26,9 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-    'local' => array('VirtualMint'), // Change this to your local machine hostname.
-    'staging' => array('your-staging-machine-name'),
-    'production' => array('your-production-machine-name'),
+    'local' => array('Impossible'), // Change this to your local machine hostname.
+    'staging' => array('not-yet-named'),
+    'production' => array('it-should-be-a-trouble'),
 
 ));
 
